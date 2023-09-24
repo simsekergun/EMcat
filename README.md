@@ -1,10 +1,10 @@
 # EMcat
 
 ### Description of the Setup Used For Generating the Dataset
-In this project, we used the MNIST dataset to create two-dimensional objects. Briefly, the colors (represented by numbers changing between 0 and 1) are converted into relative permittivity values (changing between 1 and 12). Then each of these objects are excited with electromagnetic waves. The first source excites the object from the left and the second source excites the object from the bottom. To guide the electromagnetic waves toward the object, we use waveguides, as shown with purple rectangles in Figure-1(a) below. 11 antennae are placed near the object and are shown with white dashed lines in the same figure. These antennas record the scattered electromagnetic waves, to be more precise, electric field intensity along the z-axis and magnetic field intensities along the x and y axes, respectively.
+In this project, we used the MNIST dataset to create two-dimensional objects. Briefly, the colors of handwritten digits (represented by numbers changing between 0 and 1) are converted into relative permittivity values (changing between 1 and 12). Then each of these objects is excited with electromagnetic waves twice. The first source excites the object from the left and the second source excites the object from the bottom. To guide the electromagnetic waves toward the object, we use waveguides, as shown with purple rectangles in Figure-1(a) below. 11 antennae are placed near the object and are shown with white dashed lines in the same figure. These antennas record the scattered electromagnetic waves, to be more precise, electric field intensity along the $z$-axis and magnetic field intensities along the x and y axes, respectively.
 
 <img src="https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true" width="600"/>
-(a) Permittivity map of the setup. Absolute value of (a) electric field intensity along the z-axis, (b) and (c) magnetic field intensity along the x and y-axes, respectively.
+Figure-1 (a) Permittivity map of the setup. The absolute value of (a) electric field intensity along the z-axis, (b) and (c) magnetic field intensity along the x and y-axes, respectively.
 
 ### Description of the Dataset
 The entire dataset has 10,000 samples. Half of them is reserved for training and the other half is reserved for testing. 
