@@ -1,5 +1,7 @@
 # EMcat
 
+![(a) Permittivity map of the setup. Absolute value of (a) electric field intensity along the z-axis, (b) and (c) magnetic field intensity along the x and y-axes, respectively.](https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true)
+
 ### Description of the Dataset
 The entire dataset has 10,000 samples. Half of them is reserved for training and the other half is reserved for testing. 
 Since the input (X) is complex, it is saved in two separate CSV files. XTrainReal.csv and XTrainImag.csv have the real and imaginary parts of the X values, i.e., X = XTrainReal + j*XTrainImag, where j is sqrt of -1. These are the electric field intensities measured at 300 locations by tiny antennas placed uniformly far enough from the object, where XTrainReal is the real part of the electric field intensity and XTrainImag is the imaginary part. 
