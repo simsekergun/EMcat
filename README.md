@@ -1,6 +1,8 @@
 # EMcat
 
-![(a) Permittivity map of the setup. Absolute value of (a) electric field intensity along the z-axis, (b) and (c) magnetic field intensity along the x and y-axes, respectively.](https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true | width=600)
+![(a) Permittivity map of the setup. Absolute value of (a) electric field intensity along the z-axis, (b) and (c) magnetic field intensity along the x and y-axes, respectively.](https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true)
+
+<img src="https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true" width="400"/>
 
 ### Description of the Dataset
 The entire dataset has 10,000 samples. Half of them is reserved for training and the other half is reserved for testing. 
