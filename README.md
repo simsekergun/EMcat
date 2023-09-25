@@ -23,4 +23,4 @@ This is an artificial dataset, never used before. Very high validation accuracie
  -  You need to use 50% of the data for testing. Please use the following line to create the training and testing datasets
    
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
- - Precision can't be lower than 0.5 for any of the labels.
+ -  You can use any machine learning algorithm (neural networks, decision trees, random forests, etc.) but in the end, the precision can't be lower than 0.5 for any of the labels.
