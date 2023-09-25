@@ -16,6 +16,7 @@ The entire dataset has 60,000 samples. In the input file (X.csv, which was divid
 A sample notebook (example.ipynb) is provided as a sample, where two Dense layers (with sigmoid activation function) are followed by another Dense layer that uses a softmax activation function. Probably, this approach is not the best because it simply removes the correlation between real and imaginary parts. The validation accuracy of this sample approach is ~75%. Please see the figures below. We are looking forward to receiving much higher accuracies from you. 
 <img src="https://github.com/simsekergun/EMcat/blob/main/figures/Acc_Loss.png?raw=true" width="600"/>
 
+
 Please review the notebook, to see the current confusion matrix and classification report of this implementation.
 
 
