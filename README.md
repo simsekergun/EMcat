@@ -1,5 +1,10 @@
 # Classification with Electromagnetic Waves
 
+## 2023 UMBC MPS Classification Competition
+This dataset is created for UMBC MPS Data Science Students. 
+
+Students can work in teams or individually. The deadline for the initial step is November 15, 23:59 pm. The participants are expected to email [Dr. Simsek](mailto:simsek@umbc.edu) only the validation accuracy of their implementation (that was evaluated using the testing dataset only, which was not used in the training). The 3 students/teams with the highest validation accuracy scores will be invited to discuss their implementation. 
+
 ### Description of the Setup Used For Generating the Dataset
 In this project, we used the MNIST dataset to create two-dimensional objects. Briefly, the colors of handwritten digits (represented by numbers changing between 0 and 1) are converted into relative permittivity values (changing between 1 and 12). Then each of these objects is excited with electromagnetic waves twice. The first source excites the object from the left and the second source excites the object from the bottom. To guide the electromagnetic waves toward the object, we use waveguides, as shown with purple rectangles in Figure-1(a) below. 11 antennae are placed near the object and are shown with white dashed lines in the same figure. These antennas record the scattered electromagnetic waves, to be more precise, electric field intensity along the $z$-axis and magnetic field intensities along the $x$ and $y$ axes, respectively. The absolute values of these field intensities are shown in Figure-1 (b)-(d) for the setup shown in Figure-1 (a).
 <img src="https://github.com/simsekergun/EMcat/blob/main/figures/main_figure.png?raw=true" width="600"/>
