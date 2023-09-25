@@ -13,7 +13,7 @@ In this project, we used the MNIST dataset to create two-dimensional objects. Br
 The entire dataset has 60,000 samples. In the input file (X.csv, which was divided into 6 csv files to reduce the size of each csv file to 25 MB or less, see the sample notebook to understand how X_Part1.csv, X_Part2.csv, etc. are merged to create the X), there are 6 columns: real part and imaginary parts of Ez, Hx, and Hy, respectively. There are 10 different main groups of objects (see Y.csv) obtained by converting handwritten digits (from 0 to 9). The goal is to identify the object category (Y) from X.
 
 ### A Sample Implementation
-A sample notebook (example.ipynb) is provided as a sample, where three Dense layers are followed by a softmax activation function. Probably, this approach is not the best because it simply removes the correlation between real and imaginary parts. The validation accuracy of this sample approach is ~75%. Please see the figure below. We are looking forward to receiving much higher accuracies from you. 
+A sample notebook (example.ipynb) is provided as a sample, where two Dense layers (with sigmoid activation function) are followed by another Dense layer that uses a softmax activation function. Probably, this approach is not the best because it simply removes the correlation between real and imaginary parts. The validation accuracy of this sample approach is ~75%. Please see the figures below. We are looking forward to receiving much higher accuracies from you. 
 <img src="https://github.com/simsekergun/EMcat/blob/main/figures/Acc_Loss.png?raw=true" width="600"/>
 
 ### Important Note
